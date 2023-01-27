@@ -10,6 +10,12 @@ body {
     box-sizing: border-box;
 }
 
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .destaque-titulo {
     background: none;
     color: #22D4FD;
