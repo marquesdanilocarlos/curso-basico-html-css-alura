@@ -13,7 +13,7 @@ body {
 }
 
 main {
-    margin: 10%;
+    margin: 10% 15%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -22,6 +22,9 @@ main {
 
 .content {
     width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
 }
 
 .destaque-titulo {
@@ -37,4 +40,24 @@ main {
 .texto {
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn {
+    background: #22d4fd;
+    width: 280px;
+    text-align: center;
+    padding: 21.5px 0;
+    border-radius: 16px;
+    font-size: 24px;
+    text-decoration: none;
+    color: #000;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
 }
