@@ -8,12 +8,11 @@
 body {
     background: #000;
     color: #F6F6F6;
-    height: 100vh;
     box-sizing: border-box;
 }
 
 main {
-    margin: 10% 15%;
+    padding: 8% 15%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -74,5 +73,15 @@ main {
 .subtitle {
     font-family: 'Krona One', sans-serif;
     font-weight: 400;
+    font-size: 24px;
+}
+
+.footer {
+    color: #000;
+    background: #22D4FD;
+    padding: 24px;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
     font-size: 24px;
 }
