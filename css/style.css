@@ -38,7 +38,7 @@ body {
     text-decoration: none;
 }
 
-main {
+.container {
     padding: 5% 15%;
     display: flex;
     flex-direction: row;
@@ -47,7 +47,7 @@ main {
 }
 
 .content {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -102,6 +102,10 @@ main {
     font-size: 1.5rem;
 }
 
+.image {
+    width: 50%;
+}
+
 .footer {
     color: var(--primary);
     background: var(--terciary);
@@ -109,4 +113,19 @@ main {
     text-align: center;
     font-weight: var(--weight-600);
     font-size: 1.5rem;
+}
+
+@media (max-width: 1200px) {
+    .header {
+        padding: 10%;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+    }
 }
