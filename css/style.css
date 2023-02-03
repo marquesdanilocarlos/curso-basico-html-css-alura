@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
 
+:root {
+    --primary: #2C3639;
+    --secondary: #DCD7C9;
+    --terciary: #A27B5C;
+    --hover: #3F4E4F;
+    --title-font: 'Krona One', sans-serif;
+    --weight-600: 600;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background: #000;
-    color: #F6F6F6;
+    background: var(--primary);
+    color: var(--secondary);
     box-sizing: border-box;
     font-family: Montserrat, sans-serif;
 }
@@ -23,9 +32,9 @@ body {
 }
 
 .menu a {
-    font-size: 24px;
-    font-weight: 600;
-    color: #22D4FD;
+    font-size: 1.5rem;
+    font-weight: var(--weight-600);
+    color: var(--terciary);
     text-decoration: none;
 }
 
@@ -47,16 +56,16 @@ main {
 
 .destaque-titulo {
     background: none;
-    color: #22D4FD;
+    color: var(--terciary);
 }
 
 .titulo {
-    font-size: 36px;
-    font-family: 'Krona One', sans-serif;
+    font-size: 2.25rem; /*36px*/
+    font-family: var(--title-font);
 }
 
 .texto {
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .buttons {
@@ -68,36 +77,36 @@ main {
 }
 
 .btn {
-    background: #000;
-    border: 2px solid #22d4fd;
+    background: var(--primary);
+    border: 2px solid var(--terciary);
     width: 378px;
     text-align: center;
     padding: 21.5px 0;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     text-decoration: none;
-    color: #22d4fd;
-    font-weight: 600;
+    color: var(--terciary);
+    font-weight: var(--weight-600);
     display: flex;
     justify-content: center;
     gap: 16px;
 }
 
 .btn:hover {
-    background: #272727;
+    background: var(--hover);
 }
 
 .subtitle {
-    font-family: 'Krona One', sans-serif;
+    font-family: var(--title-font);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .footer {
-    color: #000;
-    background: #22D4FD;
+    color: var(--primary);
+    background: var(--terciary);
     padding: 24px;
     text-align: center;
-    font-weight: 600;
-    font-size: 24px;
+    font-weight: var(--weight-600);
+    font-size: 1.5rem;
 }
