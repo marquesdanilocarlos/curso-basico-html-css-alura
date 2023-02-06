@@ -44,6 +44,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    gap: 40px;
 }
 
 .content {
@@ -127,5 +128,10 @@ body {
 
     .container {
         flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .content {
+        width: auto;
     }
 }
